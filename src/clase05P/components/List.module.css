@@ -1,0 +1,13 @@
+/* Haz que los elementos de la lista esten uno al lado del otro, con un espacio de 16px entre ellos, y que si no hay espacio para mostrarlos en una sola fila, se muestren en varias filas. (flexbox) */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:global(.compact-theme) .list {
+  padding: 8px;
+}

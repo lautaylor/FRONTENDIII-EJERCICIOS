@@ -1,0 +1,29 @@
+.body {
+  margin-left: 50px;
+}
+.practica-4-card {
+  border-radius: 8px;
+  border: 1px solid #0a0808;
+}
+
+.practica-4-card > * {
+  padding: 8px 16px;
+}
+
+.practica-4-card h1 {
+  border-bottom: 1px solid #fff;
+  background-color: #222;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.practica-4-card .practica-4-card-body {
+  background-color: #111;
+  border-radius: 8px;
+}
+
+.practica-4-card .practica-4-card-footer {
+  background-color: #222;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
