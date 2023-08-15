@@ -20,17 +20,17 @@ const App = () => {
           return
         }
 
-const favorito = {
-  name,
-  numero,
-  }
+        const favorito = {
+          name,
+          numero,
+        }
 
-console.log(favorito)
-setSubmitted(favorito)
-setName('')
-setNumero(0)
-setError('')
-}
+      console.log(favorito)
+      setSubmitted(favorito)
+      setName('')
+      setNumero(0)
+      setError('')
+      }
 console.log(name, numero)
 
 return (

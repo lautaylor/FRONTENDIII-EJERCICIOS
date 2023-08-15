@@ -20,7 +20,12 @@ const App = () => {
             <ul> 
              {pedidos.map((pedido) => (
                 <li key={pedido.id}>
-                    <p>Pedido: {pedido.data.plato} </p>
+                    <>
+                    <p>Pedido: {pedido.data.plato} 
+                      <button className="button">Borrar Pedido</button>
+                    </p>
+                    
+                    </>
                 </li>
             ))}
 
